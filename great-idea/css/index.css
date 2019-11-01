@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 /*code starts here*/
 
 .container {
-  width: 880px;
+  width: 850px;
   /* TB LR */
   margin: 0 auto;
 }
@@ -199,3 +199,60 @@ footer {
 }
 
 /*Services page below this line*/
+
+
+nav {
+display: flex;
+justify-content: space-around;
+}
+
+.top-image {
+	display: flex;
+	justify-content: center;
+}
+
+.service-text {
+	flex-direction: column;
+	width: 100%;
+	border-bottom:solid black 1px;
+	padding: 20px;
+
+}
+
+.boxes {
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content:space-between;
+}
+
+.box {
+	width: 45%;
+	padding: 10px;
+	margin: 10px;
+	border:solid black 1px;
+}
+
+button{
+	margin-top: 10px;
+	padding: 10px 20px 10px 20px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.bottom-services {
+	display:flex;
+	flex-flow: column wrap;
+	justify-content: space-evenly;
+	height: 300px;
+	width: 45%;
+	margin-left: 10px;
+}
+
+.services-list {
+	list-style-type: square;
+	margin-left: 10px;
+}
+/* .facts {
+	display: flex;
+
+} */
